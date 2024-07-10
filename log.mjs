@@ -1,3 +1,4 @@
 export function log(mensagem) {
-    console.log('Adicionando log via funcao apos adicionar Github Action. ',mensagem);
+    console.log(process.env.MINHA_VAR)
+    console.log({mensagem});
 }
